@@ -17,7 +17,7 @@ class generator(QWidget):
         self.show()
 
     def run(self):
-        i, okBtnPressed = QInputDialog.getInt(self, "Количество цветов", "Введите количество цветов", 1, 1, 250, 1)
+        i, okBtnPressed = QInputDialog.getInt(self, "Количество цветов", "Введите количество цветов", 1, 1, 150, 1)
         if okBtnPressed:
             self.k = i
             self.initUI()
